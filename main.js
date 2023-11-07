@@ -1,6 +1,6 @@
 import "./index.css";
 import { categoryBtn, categoryList } from "./src/core/selectors";
-import Shop from "./src/shop";
+import Shop from "./src/shop.js";
 
 
 const shop = new Shop;
