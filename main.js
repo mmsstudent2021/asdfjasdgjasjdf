@@ -2,6 +2,7 @@ import "./index.css";
 import { categoryBtn, categoryList } from "./src/core/selectors";
 import Shop from "./src/shop";
 
+
 const shop = new Shop;
 shop.init()
 
