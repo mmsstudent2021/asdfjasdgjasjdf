@@ -1,9 +1,10 @@
 import "./index.css";
 import { categoryBtn, categoryList } from "./src/core/selectors";
-import Shop from "src/Shop.js";
+import Shop from "./src/shop";
 
-const shop = new Shop();
-shop.init();
+const shop = new Shop;
+shop.init()
+
 
 // const frg = document.createDocumentFragment();
 
