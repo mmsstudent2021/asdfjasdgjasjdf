@@ -96,7 +96,7 @@ export const productListHandler = (event) => {
     const currentImg = currentProductCard.querySelector(".product-card-img");
     const currentImgPosition = currentImg.getBoundingClientRect();
     const cartBtnPosition = cartBtn.getBoundingClientRect();
-    console.log(cartBtnPosition);
+    // console.log(cartBtnPosition);
 
     const img = new Image();
     img.src = currentImg.src;
@@ -128,7 +128,7 @@ export const productListHandler = (event) => {
         ? lastCartPosition.left + 10
         : cartBody.getBoundingClientRect().left;
       const aniTop = lastCartPosition
-        ? lastCartPosition.top + 10
+        ? lastCartPosition.bottom + 10
         : cartBody.getBoundingClientRect().top;
 
       keyframe = [
